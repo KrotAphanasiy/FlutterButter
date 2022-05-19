@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tumsum_flutter/colors.dart';
+import 'package:tumsum_flutter/pages/add_product.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -119,7 +120,9 @@ class _HomePageState extends State<HomePage> {
               const SizedBox(height: 51),
               ElevatedButton(
                 onPressed: () => {
-                  .
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => const AddProductPage()))
                 },
                 style: ButtonStyle(
                   minimumSize: MaterialStateProperty.all<Size>(const Size(400, 42)),

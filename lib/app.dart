@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tumsum_flutter/colors.dart';
+import 'package:tumsum_flutter/pages/add_product.dart';
 import 'package:tumsum_flutter/pages/home.dart';
 import 'package:tumsum_flutter/pages/login.dart';
 
@@ -13,7 +14,8 @@ class TumSumApp extends StatelessWidget {
       initialRoute: '/login',
       routes: {
         '/login': (BuildContext context) => const LoginPage(),
-        '/': (BuildContext context) => const HomePage()
+        '/': (BuildContext context) => const HomePage(),
+        '/add_product': (BuildContext context) => const AddProductPage(),
       },
       theme: _buildTumsumTheme(),
     );
