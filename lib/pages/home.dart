@@ -141,6 +141,7 @@ class _HomePageState extends State<HomePage> {
                   child: Row(
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: const [
+                      SizedBox(width: 115),
                       Text(
                         "Add product ",
                         style: TextStyle(
@@ -180,6 +181,17 @@ class _HomePageState extends State<HomePage> {
           ),
           child: const SizedBox(
             height: 200,
+            child: Center(
+                child: Text(
+                    "Some another card",
+                    style: TextStyle(
+                        fontFamily: "Roboto",
+                        fontSize: 36,
+                        fontWeight: FontWeight.w500,
+                        color: tumsumVeryDarkGreen
+                    )
+                )
+            ),
           ),
         ),
       ),
@@ -205,6 +217,17 @@ class _HomePageState extends State<HomePage> {
           ),
           child: const SizedBox(
             height: 200,
+            child: Center(
+                child: Text(
+                    "Some another card",
+                    style: TextStyle(
+                        fontFamily: "Roboto",
+                        fontSize: 36,
+                        fontWeight: FontWeight.w500,
+                        color: tumsumVeryDarkGreen
+                    )
+                )
+            ),
           ),
         ),
       ),
@@ -230,6 +253,17 @@ class _HomePageState extends State<HomePage> {
           ),
           child: const SizedBox(
             height: 200,
+            child: Center(
+                child: Text(
+                    "Some another card",
+                    style: TextStyle(
+                        fontFamily: "Roboto",
+                        fontSize: 36,
+                        fontWeight: FontWeight.w500,
+                        color: tumsumVeryDarkGreen
+                    )
+                )
+            ),
           ),
         ),
       ),
@@ -255,6 +289,17 @@ class _HomePageState extends State<HomePage> {
           ),
           child: const SizedBox(
             height: 200,
+            child: Center(
+                child: Text(
+                    "Some another card",
+                    style: TextStyle(
+                        fontFamily: "Roboto",
+                        fontSize: 36,
+                        fontWeight: FontWeight.w500,
+                        color: tumsumVeryDarkGreen
+                    )
+                )
+            ),
           ),
         ),
       ),
@@ -280,6 +325,17 @@ class _HomePageState extends State<HomePage> {
           ),
           child: const SizedBox(
             height: 200,
+            child: Center(
+                child: Text(
+                    "Some another card",
+                    style: TextStyle(
+                        fontFamily: "Roboto",
+                        fontSize: 36,
+                        fontWeight: FontWeight.w500,
+                        color: tumsumVeryDarkGreen
+                    )
+                )
+            ),
           ),
         ),
       ),
@@ -305,6 +361,17 @@ class _HomePageState extends State<HomePage> {
           ),
           child: const SizedBox(
             height: 200,
+            child: Center(
+                child: Text(
+                    "Some another card",
+                    style: TextStyle(
+                        fontFamily: "Roboto",
+                        fontSize: 36,
+                        fontWeight: FontWeight.w500,
+                        color: tumsumVeryDarkGreen
+                    )
+                )
+            ),
           ),
         ),
       )
